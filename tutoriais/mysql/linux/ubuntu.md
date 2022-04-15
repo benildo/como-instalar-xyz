@@ -4,7 +4,7 @@ Para instalar o Mysql no seu ubuntu você pode instalar via terminal com os coma
 
 ```shell
 sudo apt-get update
-sudo apt-get install Mysql-server
+sudo apt-get install mysql-server
 ```
 
 * Ao finalizar a instalação será aberta um terminal para você definir a senha padrão do myqsl.
@@ -12,14 +12,14 @@ sudo apt-get install Mysql-server
 Logo em seguida basta executar o comando, esse comandos irá "startar" o Mysql e habilitará que o mesmo seja startando quando for restartado:
 
 ```shell
-sudo systemctl start Mysql
-systemctl enable Mysql
+sudo systemctl start mysql
+systemctl enable mysql
 ```
 
 Logo em seguida para acessar o seu Mysql basta executar o comando abaixo com a senha que você inseriu:
 
 ```shell
-Mysql -u root -p
+mysql -u root -p
 ```
 
 # Obs:
